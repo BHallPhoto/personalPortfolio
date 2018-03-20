@@ -1,8 +1,12 @@
+html,
 body {
-    background: orange;
+    min-height: 100vh;
+}
+body {
+    height: 100vh;
 }
 .header {
     display: block;
-    height: 40px;
+    font-family: 'Mirza', cursive;
     text-align: center;
 }

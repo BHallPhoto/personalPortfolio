@@ -8,8 +8,11 @@ body {
 }
 
 .header {
+    background: #41505f url("../../assets/5I5A9807.jpg") no-repeat center center / cover fixed;
     display: block;
     font-family: 'Handlee', cursive;
+    height: 100%;
+    position: relative;
     text-align: center;
 }
 
@@ -19,6 +22,20 @@ body {
 }
 
 /* Bootstrap Overrides */
+.affix-top {
+    /* navbar style at top */
+    background-color:transparent;
+    border-color:transparent;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease; 
+    -o-transition:all 0.5s ease;         
+    transition:all 0.5s ease;  
+}
+
 .jumbotron {
-    background: none;
+    padding-top: 75px;
+}
+
+.fas {
+    color: white;
 }

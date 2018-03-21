@@ -2,11 +2,18 @@ html,
 body {
     min-height: 100vh;
 }
+
 body {
     height: 100vh;
 }
+
 .header {
     display: block;
-    font-family: 'Mirza', cursive;
+    font-family: 'Handlee', cursive;
     text-align: center;
+}
+
+.content-fluid {
+    padding-left: 20vh;
+    padding-right: 20vh;
 }

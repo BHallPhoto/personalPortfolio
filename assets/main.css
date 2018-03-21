@@ -17,3 +17,8 @@ body {
     padding-left: 20vh;
     padding-right: 20vh;
 }
+
+/* Bootstrap Overrides */
+.jumbotron {
+    background: none;
+}

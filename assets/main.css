@@ -7,20 +7,45 @@ body {
     height: 100vh;
 }
 
+a {
+    color: #41505f;
+}
+
 .container-fluid {
     background: #41505f url("../../assets/5I5A9807.jpg") no-repeat center center / cover fixed;
-    display: block;
     font-family: 'Handlee', cursive;
     height: 100%;
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
 }
 
+.container-element {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.7);
+}
 
-@media (min-width: 992px){
-    /* csslint allow: IDs in Selectors */
+.elementEdit {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 10vh;
+}
+
+.header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.navi {
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 992px) {
     .left { 
         bottom: 0;
+        display: none;
         position: fixed;
+        text-align: center;
         top: 0;
     }
 }

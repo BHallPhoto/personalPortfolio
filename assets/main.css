@@ -11,9 +11,35 @@ a {
     color: #41505f;
 }
 
+h1 {
+    padding-bottom: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.slash {
+    position: relative;
+}
+    h6 .slash {
+        font-size: 1.4em;
+        top: .2em;
+    }
+
+.moveIt {
+    padding-top: 5px;
+}
+
+.smile {
+    position: relative;
+}
+    .face .smile {
+        top: .2em;
+    }
+
 .container-fluid {
     background: #41505f url("../../assets/5I5A9807.jpg") no-repeat center center / cover fixed;
-    font-family: 'Handlee', cursive;
     height: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -22,7 +48,7 @@ a {
 
 .container-element {
     background-color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .elementEdit {
@@ -32,8 +58,15 @@ a {
 }
 
 .header {
+    color: #41505f;
+    font-family: 'Life Savers', cursive;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.content-body {
+    color: #41505f;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navi {
